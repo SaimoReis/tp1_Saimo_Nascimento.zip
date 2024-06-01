@@ -1,35 +1,36 @@
-Sistema de cadastro de alunos em Python
+SISTEMA DE CADASTRO DE ALUNOS
 
 
 Descrição:
-
-Este é um projeto simples de um sistem de cadastro de alunos utilizando a linguagem de programação Phyton. Nesse projeto é utilizado orientação a objetos, lista encadeada simples e fila. Como inerface gráfica é utilizado o módulo "TKINTE" como "TK" e "MESSAGEBOX" do "TKINTER".
-
-Estrutura de dados:
-
-O sistema de cadastro utiliza uma lista encadeada simples onde é implementada por uma classe chamada "listaEncadeada", essa lista tem o atributo "Cabeça" que aponta para o primeiro nó na lista. A classe tem tem um método "adicionar" que adiciona um novo nó ao final da lista.A classe Fila implementa uma fila usando a classe "ListaEncadeada". Ela tem um método "enfileirar" que adiciona um item ao final da fila e um método "desenfileirar" que remove e retorna o item no início da fila. A "Classe estudante" é um modelo para criar objetos de estudante com atributos "nome", "idade", "curso", "matrícula".
+O programa em Python tem a finalidade de ordenar um sistem de cadastro de alunos usando uma árvore binária simples,
+onde cada aluno será alocado em uma folha da árvore de acordo com a ordem crescente de números da sua matrícula.
 
 
-REQUISITOS:
-
-O único requisito para o funcionamento do sistema é ter uma versão atualizada do Python 3 em seu computador.
-
-
-Como Usar o Sistema:
-
-Esse simples sistema é só um protótipo de cadastro, o usuário pode implementar várias funções, por exemplo: limitadores dde caractéres no nome, idade, curso e matrícula. Só é necessário preencher todos os campos com as devidas informações, e com extamente 9 digítos no campo da matrícula.
+Árvore Binária:
+O código usará uma Árvo Binária simples, o comportamento da árvore se dá de acordo com cada comando executado pelo usuário
 
 
-OBSERVAÇÕES:
+Requisitos:
+O único requisito necessário é o usuário ter o Python 3.10... instalado no computador.
 
-A única observação a ser feita no código é que no campo da matrícula é necessário ter exatamente 9 caractéres para o cadastro do aluno.
 
-AUTORES:
+Como Usar o programa:
+Assim que o programa for executado, ele iniciará com uma barra de opções, entre elas estão :adicionar, remover, mostrar ou sair:
+Ao executar a ação adicionar, o programa irá pedir algumas informações para adicionar um novo estudante.
+Ao executar a ação remover o programa irá pedir a matrícula do aluno que deseja remover.
+Ao executar a ação mostrar, o programa irá mostar todos os alunos cadastrados no sistema.
+Ao executar a ação sair, o programa irá encerrar todas as ações.
 
+
+Observações:
+Caso a matrícula do aluno não termine com os números 1, 2 ou 3, aparecerá uma mensagem de erro, pois o programa não conseguirá identificar
+qual curso o estudante pertence, se a matrícula tiver menos que 9 caracteres aparecerá uma mensagem de erro, se na hora de fazer a remoção
+do aluno a matricula estiver errado aparecerá novamente uma mensagem de erro.
+
+Autores:
 Saimo Nascimento dos Reis - 222012783@aluno.unb.br
 
-REFERÊNCIAS:
-
-Sistema de cadastro do Sigaa
-
-Sistema de cadastro do .GOV
+Referências: 
+- Sigaa
+- Aprender3
+- Sistema de cadastro do GOV.
